@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ms-person
+  r2dbc:
+    #url: ${DB_URL}/dbperson
+    #username: ${DB_USERNAME}
+    #password: ${DB_PASSWORD}
+    url: r2dbc:postgresql://104.154.162.191/dbperson
+    username: postgres
+    password: '*\PHd-D0c.|"u(ZI'
